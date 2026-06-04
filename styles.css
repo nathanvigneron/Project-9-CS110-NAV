@@ -1,0 +1,62 @@
+/* nathan vigneron */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 2.0;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    line-height: 2.0;
+    color: #4d4d4d;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+p {
+    font-family: Arial Narrow, sans-serif;
+    font-size: 140%;
+    line-height: 2.0;
+    color: #000000;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+ul {
+    font-family: Arial Narrow, sans-serif;
+    font-size: 140%;
+    line-height: 2.0;
+    color: #000000;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('sheet.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
+}
